@@ -1,0 +1,51 @@
+html{
+  background-color: rgb(214, 214, 214);
+  overflow-x: hidden;
+  overflow-y: hidden;
+  font-family: 'Gayathri', sans-serif;
+}
+#menu{
+  z-index: 10;
+  background-color: black;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  height: 120px;
+  width: 100%;
+}
+#nombre{
+  color: silver;
+}
+.nav{
+  position: absolute;
+  right: 100px;
+  top: 40px;
+}
+.tab{
+  font-size: 30px;
+  width: 150px;
+  text-align: center;
+  color: gold;
+  transition: all  1s;
+}
+.tab:hover{
+  cursor: pointer;
+  background-color: gray;
+  border-radius: 20px;
+  padding-top: 1%;
+}
+#logo{
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  position: absolute;
+  left: 10px;
+  top: 10px;
+}
+.foto{
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 100%;
+  width: 100%;
+}
