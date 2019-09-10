@@ -1,15 +1,18 @@
 html{
-  background-color: rgb(214, 214, 214);
+  background-image: url("../images/fondo.jpg");
+  background-size: cover;
   overflow-x: hidden;
   overflow-y: hidden;
   font-family: 'Gayathri', sans-serif;
+  color: gold;
 }
-#nombre{
-  color: silver;
+a{
+  text-decoration: none;
+  color: inherit;
 }
 #menu{
   z-index: 10;
-  background-color: black;
+  background-color: #181818;
   position: fixed;
   top: 0px;
   left: 0px;
@@ -30,14 +33,15 @@ html{
 }
 .tab:hover{
   cursor: pointer;
-  background-color: gray;
-  border-radius: 20px;
+  background-color: gold;
   padding-top: 1%;
+  box-shadow:inset 2px 2px 4px gold, inset -3px -3px 3px gold;
+  color: black;
+  border-radius: 100px;
 }
 #logo{
   height: 100px;
-  width: 100px;
-  border-radius: 50%;
+  width: 300px;
   position: absolute;
   left: 10px;
   top: 10px;
@@ -54,11 +58,11 @@ html{
   width: 100%;
 }
 #titulo{
-  padding: 2%;
+  padding-top: 2px;
 }
 #products{
   width: 90%;
-  margin-left: 5%;
+  margin-left: 4%;
 }
 #texto{
   position: absolute;
@@ -70,12 +74,13 @@ html{
 }
 .modal{
   text-align: center;
-  background-color: white;
+  background-color: #111111;
   border-radius: 20px;
   width: 70%;
-  height: auto;
-  margin-top: 20vh;
-  margin-left: 15%;
+  height: 510px;
+  position: absolute;
+  top: 130px;
+  left: 190px;
 }
 .des{
   border: 3px solid black;
@@ -85,20 +90,33 @@ html{
   max-height: 200px;
   width: 25%;
 }
-.flecha{
-  background-color: black;
-  font-size: 30px;
-  color: white;
+p{
+  margin: 0 !important;
 }
-a{
-  text-decoration: none;
-  color: gold;
+td:hover{
+  cursor: pointer;
+  background-color: gray;
+  transition: all 1.5s;
+  color: black;
+  border-radius: 60px;
 }
-#nombre{
-  color: silver;
-  font-weight: bold;
-  position: relative;
-  font-size: 6.5ex;
-  top: 40px;
-  left: 150px;
+#tumama{
+  width: 20%;
+}
+li{
+  list-style: none;
+}
+button{
+  width: 100px;
+  padding: 1%;
+  margin: .5%;
+  box-shadow: inset 20px gray;
+  background-color: gold;
+  border: none;
+  border-radius: 5px;
+}
+button:hover{
+  cursor: pointer;
+  background-color: green;
+  transition: all 1s;
 }

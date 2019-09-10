@@ -1,0 +1,90 @@
+html {
+	font-size: 18px;
+  font-family: 'Lato', sans-serif;
+}
+body {
+	background-image: url("../images/fondo.jpg");
+	background-size: cover;
+}
+.grande {
+  border-radius: 6px;
+	max-width: 450px;
+	height: auto;
+	background-color: #EFEFEF;
+	margin: 5% auto;
+	padding-bottom: 1rem;
+
+}
+.far {
+	width: 100%;
+  border-radius: 6px;
+	text-align: center;
+	padding: 2rem 0 1rem;
+	border-top: solid .4rem grey;
+	margin-bottom: 1rem;
+}
+h2 span {
+	color: gold;
+}
+.fab {
+	padding: 0 2rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.btnf {
+	display: flex;
+	margin-top: 1rem;
+	margin-left: 7rem;
+}
+a{
+	margin-left: 33%;
+	width: 30%;
+	padding: .5rem;
+	font-size: .8rem;
+	border-radius: 7px;
+}
+.input, .btns{
+	background-color: #EFEFEF;
+	padding: .5rem;
+	margin: .5rem 0;
+	border: none;
+	border-bottom: solid #C8C8C8 .2rem;
+	transition: all .3s;
+}
+.input:focus {
+	border-bottom: solid gold .3rem;
+}
+.btns{width: 50%;}
+.btns, a{
+	border-bottom: none;
+	border-radius: 7px;
+	background-color: gold;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	box-shadow: 0 3px 3px rgba(0,0,0,0.3);
+  text-shadow: 0 2px 0 rgba(255,255,255,0.3);
+}
+.btns:hover, a:hover {
+	transition: all .3s;
+	background-color: #C06C84;
+}
+.sesion{
+	position: absolute; top: .8rem; right: 1.1rem;
+	border-radius: 3px;
+	padding-right: .5%;
+	max-width: 20rem;
+	height: 3.3rem;
+	background-color: #6C5B7B;
+	color: black;
+	font-size: .8rem;
+}
+.fperf{
+	/* position: absolute; right: 3rem; top: .6rem; */
+	height: 2.6rem;
+	width: 2.6rem;
+	margin: 5px;
+	float: left;
+	border-radius: 3px;
+}
